@@ -52,8 +52,34 @@ a {
     display:flex;
 }
 
+.section1 img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border:4px solid #3882F6;
+}
+
+.section1 p {
+    text-align: center;
+}
+
 .section2 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 150px;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+    font-weight:lighter;
+}
+
+#author {
+    font-weight: bold;
 }
 
 .subscribe {
