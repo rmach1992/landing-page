@@ -3,15 +3,38 @@
     color: #F9FAF8;
 }
 
+.logo img{
+    width: 50px;
+    height: auto;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
     padding: 10px;
 }
 
-img {
-    width: 50px;
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+#mainText {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.container img {
+    width: 400px;
     height: auto;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
 }
 
 ul {
@@ -35,6 +58,13 @@ a {
 
 .subscribe {
     background-color: #3882F6;
+    margin: 100px;
+    border-radius: 15px;
+    color: white;
+}
+
+#action {
+    font-weight: bolder;
 }
 
 .footer {
@@ -42,4 +72,12 @@ a {
     display: flex;
     color: #F9FAF8;
     justify-content: center;
+}
+
+button {
+    background: #3882F6;
+    color: white;
+    padding: 5px;
+    border-radius:15px;
+    width: 100px;
 }
