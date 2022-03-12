@@ -27,7 +27,7 @@
 }
 
 .container img {
-    width: 400px;
+    width: 300px;
     height: auto;
     margin: 20px;
 }
@@ -48,8 +48,23 @@ a {
     color: white;
 }
 
+#title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 32px;
+}
+
+.info {
+    max-width: 150px;
+    margin-bottom: 125px;
+}
+
 .section1 {
     display:flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 .section1 img {
@@ -87,6 +102,10 @@ a {
     margin: 100px;
     border-radius: 15px;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-content: flex-end;
 }
 
 #action {
